@@ -1,1 +1,1 @@
-void regist(struct phonebook* pbp);
+void regist(struct phonebook * pbp);

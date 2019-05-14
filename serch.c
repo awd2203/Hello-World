@@ -1,3 +1,9 @@
+#include<stdio.h>
+#include<stdbool.h>
+#include<string.h>
+#include"phonebook.h"
+
+
 void serch(struct phonebook* pbp){
     char fstring[30];
     bool flag=false;

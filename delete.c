@@ -1,5 +1,6 @@
-
-
+#include<stdio.h>
+#include<string.h>
+#include"phonebook.h"
 
 void del(struct phonebook* pbp){
     char fstring[30];

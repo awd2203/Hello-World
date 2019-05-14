@@ -1,8 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdbool.h>
+#include"phonebook.h"
+
 void regist(struct phonebook* pbp){
     char password[30];
     char phone[30];
     char name[30];
-    char pss[30] = "1";
+    char pss[30] = "qwerty1234";
     printf("Password:");
     scanf("%s",password);
     if(strcmp(pss,password)){
